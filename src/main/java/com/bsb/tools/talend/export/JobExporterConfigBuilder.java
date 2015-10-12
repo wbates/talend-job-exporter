@@ -10,6 +10,12 @@ import org.talend.repository.ui.wizards.exportjob.scriptsmanager.JobScriptsManag
  *
  * @author Sebastien Gerard
  */
+
+/*
+ * Modified
+ * By: Bill Bates <wbates@wbates.com>
+ * Date: 2015-10-11
+ */
 public final class JobExporterConfigBuilder {
 
     public static JobExporterConfigBuilder toArchiveFile(String destinationFile) {

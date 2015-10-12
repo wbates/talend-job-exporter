@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.2"?>
+<!-- PER LICENSE, MODIFIED BY wbates ON 2015-10-11 -->
 <plugin
    id="bsb-talend-codegen"
    name="bsb-talend-codegen"
