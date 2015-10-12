@@ -31,8 +31,8 @@ public final class JobExporterConfigBuilder {
         this.exportChoiceMap.put(ExportChoice.needJobItem, false);
         this.exportChoiceMap.put(ExportChoice.needJobScript, false);
         this.exportChoiceMap.put(ExportChoice.needSourceCode, false);
-        this.exportChoiceMap.put(ExportChoice.needContext, false);
-        this.exportChoiceMap.put(ExportChoice.applyToChildren, false);
+        this.exportChoiceMap.put(ExportChoice.needContext, true);
+        this.exportChoiceMap.put(ExportChoice.applyToChildren, true);
         this.exportChoiceMap.put(ExportChoice.needDependencies, false);
         this.exportChoiceMap.put(ExportChoice.setParameterValues, false);
     }
